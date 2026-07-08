@@ -1,8 +1,8 @@
 export default function Badge({ statut }) {
   const styles = {
-    "Payé":        "bg-green-100 text-green-700",
-    "Actif":       "bg-green-100 text-green-700",
-    "En attente":  "bg-yellow-100 text-yellow-700",
+    "Payé":        "bg-green-150 text-green-700",
+    "Actif":       "bg-green-150 text-green-700",
+    "En attente":  "bg-yellow-150 text-yellow-700",
     "Difficulté":  "bg-yellow-100 text-yellow-700",
     "Impayé":      "bg-red-100 text-red-700",
     "Suspendu":    "bg-red-100 text-red-700",
