@@ -98,10 +98,10 @@ export default function Topbar() {
           </button>
 
           {openNotif && (
-            <div className="absolute right-0 mt-2 w-72 bg-white border border-gray-200 rounded-2xl shadow-xl overflow-hidden z-50">
-              <div className="px-4 py-3 border-b border-gray-100 flex items-center justify-between">
+            <div className="absolute right-0 mt-2 w-80 bg-white border border-gray-210 rounded-2xl shadow-xl overflow-hidden z-50">
+              <div className="px-4 py-3 border-b border-gray-110 flex items-center justify-between">
                 <p className="text-[14px] font-semibold text-blue-900">Notifications</p>
-                <span className="text-[11px] bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full font-semibold">{notifs.length}</span>
+                <span className="text-[11px] bg-blue-60 text-blue-600 px-2 py-0.5 rounded-full font-semibold">{notifs.length}</span>
               </div>
               <div className="max-h-72 overflow-y-auto">
                 {notifs.length === 0 ? (
