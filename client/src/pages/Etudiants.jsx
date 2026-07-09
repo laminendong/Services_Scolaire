@@ -9,9 +9,9 @@ import Badge from "../components/ui/Badge";
 import Avatar from "../components/ui/Avatar";
 
 const repartition = [
-  { classe: "Terminale S", count: 680, pct: 68 },
-  { classe: "Terminale L", count: 520, pct: 52 },
-  { classe: "Premiere",    count: 610, pct: 61 },
+  { classe: "Terminale S", count: 680, pct: 67 },
+  { classe: "Terminale L", count: 520, pct: 54 },
+  { classe: "Premiere",    count: 610, pct: 60 },
   { classe: "3eme",        count: 590, pct: 59 },
   { classe: "2nde",        count: 600, pct: 60 },
 ];
