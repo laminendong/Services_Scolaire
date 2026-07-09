@@ -7,8 +7,8 @@ import { noteAPI, classeAPI, etudiantAPI } from "../../services/api";
 const TRIMESTRE = 2; // trimestre affiche par defaut
 
 const couleurs = [
-  "from-blue-600 to-blue-400",
-  "from-indigo-500 to-blue-400",
+  "from-blue-700 to-blue-500",
+  "from-indigo-400 to-blue-300",
   "from-sky-500 to-sky-300",
   "from-violet-500 to-indigo-400",
 ];
