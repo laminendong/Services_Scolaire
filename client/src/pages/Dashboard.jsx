@@ -62,11 +62,11 @@ export default function Dashboard() {
     <div className="p-4 md:p-8">
       <div className="flex items-end justify-between mb-6">
         <div>
-          <h2 className="font-serif text-[26px] font-semibold text-blue-900">Vue d'ensemble</h2>
+          <h2 className="font-serif text-[25px] font-semibold text-blue-800">Vue d'ensemble</h2>
           <p className="text-[13px] text-gray-400 mt-1">Bienvenue — voici vos statistiques en temps reel.</p>
         </div>
         <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-3.5 py-1.5 text-[13px] text-gray-400">
-          <CalendarDays className="w-4 h-4 text-blue-400" strokeWidth={1.8} />
+          <CalendarDays className="w-5 h-5 text-blue-450" strokeWidth={1.8} />
           {new Date().toLocaleDateString("fr-FR", { weekday:"long", day:"numeric", month:"long", year:"numeric" })}
         </div>
       </div>
