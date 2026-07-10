@@ -8,7 +8,7 @@ const roles = [
     key: "admin",
     label: "Administrateur",
     icon: Shield,
-    color: "from-blue-600 to-blue-800",
+    color: "from-blue-700 to-blue-900",
     lightColor: "bg-blue-50",
     borderColor: "border-blue-500",
     textColor: "text-blue-600",
